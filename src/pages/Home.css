@@ -1,0 +1,126 @@
+/* ============================================================================
+   Home — Frosted Depth style
+   ========================================================================== */
+
+ion-refresher {
+  background-color: transparent;
+}
+
+/* Ambient accent orb behind content */
+.home-page ion-content::part(background) {
+  background: var(--page-gradient);
+}
+.home-page ion-content::before {
+  content: "";
+  position: fixed;
+  top: -60px;
+  right: -60px;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  background: var(--ion-color-primary);
+  opacity: 0.1;
+  filter: blur(80px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.home-list {
+  padding: 4px 14px calc(var(--ion-safe-area-bottom) + 90px);
+  position: relative;
+  z-index: 1;
+}
+
+/* Category filter row */
+.cat-filter {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 12px 14px 6px;
+  scrollbar-width: none;
+  position: relative;
+  z-index: 1;
+}
+.cat-filter::-webkit-scrollbar {
+  display: none;
+}
+
+.cat-chip {
+  flex: 0 0 auto;
+  border: 1px solid var(--glass-border);
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  color: var(--ion-text-color);
+  border-radius: var(--m3-radius-full);
+  padding: 8px 16px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+}
+.cat-chip--on {
+  background: var(--ion-color-primary);
+  color: var(--ion-color-primary-contrast);
+  border-color: var(--ion-color-primary);
+  box-shadow: 0 4px 14px color-mix(in srgb, var(--ion-color-primary) 30%, transparent);
+}
+
+/* Empty state */
+.home-empty {
+  text-align: center;
+  padding: 60px 24px;
+  color: var(--m3-on-surface-variant);
+}
+.home-empty__art {
+  font-size: 4rem;
+  margin-bottom: 8px;
+}
+.home-empty h2 {
+  color: var(--ion-text-color);
+  font-weight: 800;
+  margin: 4px 0;
+}
+.home-empty p {
+  margin: 4px 0 20px;
+  font-size: 0.92rem;
+}
+
+/* Swipe transition — min-height ensures the touch target covers the full scroll area */
+.home-swipe {
+  min-height: 100%;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+              opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.home-swipe--left {
+  animation: swipeOutLeft 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.home-swipe--right {
+  animation: swipeOutRight 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+@keyframes swipeOutLeft {
+  0% { opacity: 1; transform: translateX(0); }
+  40% { opacity: 0.3; transform: translateX(-30px); }
+  60% { opacity: 0; transform: translateX(30px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+@keyframes swipeOutRight {
+  0% { opacity: 1; transform: translateX(0); }
+  40% { opacity: 0.3; transform: translateX(30px); }
+  60% { opacity: 0; transform: translateX(-30px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+
+/* Smooth segment transitions */
+ion-segment-button {
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Push FAB above the footer bar */
+.home-fab {
+  bottom: 64px !important;
+  margin-bottom: var(--ion-safe-area-bottom, 0px);
+}

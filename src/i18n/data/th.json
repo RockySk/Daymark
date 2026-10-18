@@ -1,0 +1,161 @@
+{
+  "g": {
+    "back": "ย้อนกลับ",
+    "close": "ปิด",
+    "cancel": "ยกเลิก",
+    "confirm": "ยืนยัน",
+    "discard": "ไม่บันทึก"
+  },
+  "p": {
+    "about": {
+      "title": "เกี่ยวกับ Daymark",
+      "version": "เวอร์ชันแอป: {{versionName}}",
+      "platform": "แพลตฟอร์ม:",
+      "reload": "โหลดใหม่",
+      "slogan": "Daymark: ติดตามทุกวันสำคัญของคุณ",
+      "link": {
+        "landing": "หน้าเว็บไซต์",
+        "github": "GitHub ของโปรเจกต์",
+        "bug": "รายงานปัญหา",
+        "feature": "ขอรับฟีเจอร์ใหม่"
+      },
+      "more": {
+        "title": "แอปอื่นจาก Sourabh Kulkarni: ",
+        "weread": "Weread",
+        "onea4paperyourlife": "OneA4PaperYourLife"
+      }
+    },
+    "add": {
+      "title": "เพิ่ม Daymark",
+      "add": "เพิ่ม",
+      "eventName": {
+        "label": "ชื่อกิจกรรม",
+        "placeholder": "ระบุชื่อกิจกรรม"
+      },
+      "tips": "1. เลือกวันที่ในอดีตเพื่อนับเพิ่ม 2. เลือกวันที่ในอนาคตเพื่อนับถอยหลัง 3. ระบุคำอธิบายได้หลังจากเพิ่มกิจกรรมแล้ว",
+      "toast": "เพิ่มแล้ว",
+      "extend": "หากต้องการเลือกวันที่ที่ห่างไกลออกไปมาก โปรดเปิด 'โหมดขยายช่วงวันที่' ในการตั้งค่า"
+    },
+    "edit": {
+      "title": "แก้ไข Daymark",
+      "description": "แตะที่ชื่อหรือวันที่เพื่อแก้ไข",
+      "noData": "ไม่มีข้อมูล"
+    },
+    "home": {
+      "title": "Daymark",
+      "countdown": "นับถอยหลัง",
+      "countup": "นับเพิ่ม",
+      "daysView": "วัน",
+      "weeksView": "สัปดาห์",
+      "monthsView": "เดือน",
+      "search": "ค้นหา",
+      "searchPlaceholder": "ค้นหากิจกรรม"
+    },
+    "settings": {
+      "title": "การตั้งค่า",
+      "general": {
+        "title": "ทั่วไป",
+        "toggleDevMode": "โหมดนักพัฒนา",
+        "testLocalNotification": "ทดสอบการแจ้งเตือน",
+        "reviewTour": "แนะนำการใช้งาน",
+        "about": "เกี่ยวกับ Daymark",
+        "toggleExtendMode": "โหมดขยายช่วงวันที่ (เลือกวันที่ได้ไกลขึ้น)",
+        "toggleRelativeMode": "โหมดเวลาสัมพัทธ์ (30 วันต่อเดือน)",
+        "backup": "สำรองข้อมูล",
+        "webFrontendReload": "รีเฟรชหน้าเว็บ"
+      },
+      "theme": {
+        "title": "รูปแบบ",
+        "toggleDarkMode": "โหมดมืด",
+        "followSystem": "ใช้ตามการตั้งค่าระบบ"
+      }
+    },
+    "share": {
+      "date": "วันที่",
+      "openApp": "เปิดใน Daymark",
+      "title": "แชร์"
+    },
+    "backup": {
+      "title": "สำรองข้อมูล",
+      "confirm": {
+        "title": "เขียนทับข้อมูลที่มีอยู่ทั้งหมดหรือไม่"
+      },
+      "message": {
+        "failed": "ไม่สำเร็จ",
+        "import": {
+          "successful": "นำเข้าข้อมูลสำเร็จ"
+        },
+        "export": {
+          "successful": "ส่งออกข้อมูลสำเร็จ"
+        }
+      },
+      "export": "ส่งออก",
+      "import": "นำเข้า",
+      "share": {
+        "title": "ไฟล์สำรองข้อมูล Daymark",
+        "text": "แชร์ไฟล์สำรองข้อมูลของคุณ"
+      }
+    }
+  },
+  "c": {
+    "card": {
+      "days": "วัน",
+      "weeks": "สัปดาห์",
+      "months": "เดือน",
+      "years": "ปี",
+      "countdownEvent": "{{eventName}}: อีก"
+    },
+    "cards": {
+      "noData": "ไม่มีข้อมูล",
+      "toCountup": "นับเพิ่ม",
+      "toCountdown": "นับถอยหลัง",
+      "addCountdate": "เพิ่มกิจกรรม",
+      "addCountdate!": "เพิ่มกิจกรรม",
+      "edit": "แก้ไข",
+      "settings": "การตั้งค่า",
+      "checkData": "ตรวจสอบข้อมูล",
+      "delete!": "ลบ",
+      "deleted": "ลบแล้ว",
+      "deleteMessage": "การดำเนินการนี้ไม่สามารถย้อนกลับได้",
+      "deleteAllData": "ลบข้อมูลทั้งหมด",
+      "copyData": "คัดลอกข้อมูล",
+      "copied!": "คัดลอกแล้ว"
+    },
+    "settings": {
+      "changeTextColor": "สีตัวอักษร",
+      "changeAccent": "โทนสี",
+      "followAccent": "ใช้ตามโทนสีหลัก",
+      "saveColor": "บันทึกสี",
+      "changeLang": "ภาษา"
+    },
+    "tour": {
+      "title": "วิธีใช้งาน Daymark",
+      "step_1": "เพิ่มกิจกรรม",
+      "step_2": "ระบุชื่อกิจกรรม",
+      "step_3": "เลือกวันที่",
+      "step_4": "แตะปุ่มเพิ่ม",
+      "step_5": "แก้ไขกิจกรรม",
+      "step_6": "แตะที่ชื่อหรือวันที่เพื่อแก้ไข",
+      "step_7": "แตะไอคอนถังขยะเพื่อลบ",
+      "step_8": "แตะค้างแล้วลากเพื่อเรียงลำดับ",
+      "can_review": "ดูวิธีใช้งานย้อนหลังได้ในการตั้งค่า",
+      "learn_more": "เรียนรู้เพิ่มเติมเกี่ยวกับวิธีใช้งาน"
+    },
+    "editor": {
+      "description": "คำอธิบาย",
+      "needToSave": "ต้องบันทึกการเปลี่ยนแปลง",
+      "noDescriptionData": "ไม่มีรายละเอียด",
+      "tips": "รองรับการเขียนด้วยรูปแบบ Markdown เบื้องต้น",
+      "quickEdit": {
+        "title": "แก้ไขด่วน",
+        "confirm": "ยืนยันการแก้ไขหรือไม่",
+        "addOneMonth": "+1 เดือน",
+        "minusOneDay": "-1 วัน",
+        "addOneDay": "+1 วัน"
+      },
+      "edit": "แก้ไข",
+      "completeEdit": "เสร็จสิ้น",
+      "shareDescription": "แชร์ชื่อและวันที่ของกิจกรรม"
+    }
+  }
+}

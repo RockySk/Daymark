@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Daymark</string>
+    <string name="title_activity_main">Daymark</string>
+    <string name="package_name">com.sourabhkulkarni.countdate</string>
+    <string name="custom_url_scheme">countdateapp</string>
+    <string name="countdown_widget_text">0</string>
+    <string name="widget_minimal_desc">Minimal light widget</string>
+    <string name="widget_dark_desc">Dark mode widget</string>
+    <string name="widget_transparent_desc">Transparent overlay widget</string>
+</resources>

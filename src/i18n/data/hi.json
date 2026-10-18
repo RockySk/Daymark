@@ -1,0 +1,213 @@
+{
+  "g": {
+    "back": "वापस",
+    "close": "बंद करें",
+    "cancel": "रद्द करें",
+    "confirm": "सहेजें",
+    "discard": "हटाएँ"
+  },
+  "p": {
+    "about": {
+      "title": "के बारे में",
+      "version": "संस्करण {{versionName}}",
+      "platform": "प्लेटफ़ॉर्म:",
+      "reload": "पुनः लोड करें",
+      "slogan": "महत्वपूर्ण पलों की उल्टी गिनती करें — और उन पलों से गिनती शुरू करें जो आप कभी नहीं भूलेंगे।",
+      "developer": "डेवलपर",
+      "feedbackTitle": "प्रतिक्रिया और सहायता",
+      "feedback": "प्रतिक्रिया भेजें",
+      "madeBy": "Sourabh Kulkarni द्वारा स्नेह से बनाया गया",
+      "link": {
+        "landing": "लैंडिंग पेज",
+        "github": "GitHub पर प्रोजेक्ट",
+        "bug": "बग की रिपोर्ट करें",
+        "feature": "नई सुविधा का अनुरोध करें"
+      },
+      "more": {
+        "title": "और ऐप्स",
+        "weread": "Weread",
+        "onea4paperyourlife": "OneA4PaperYourLife"
+      }
+    },
+    "add": {
+      "title": "नई घटना",
+      "add": "घटना जोड़ें",
+      "saveChanges": "परिवर्तन सहेजें",
+      "updated": "अपडेट हो गया!",
+      "nameRequired": "कृपया घटना का नाम दर्ज करें",
+      "dateLabel": "तारीख",
+      "category": "श्रेणी",
+      "customCategory": "कस्टम श्रेणी…",
+      "customCategoryHint": "अपना लेबल टाइप करें (जैसे: अनुभव, परीक्षा, यात्रा) और सहेजें।",
+      "repeat": "दोहराना",
+      "repeatNone": "दोहराता नहीं है",
+      "repeatHourly": "हर घंटे",
+      "repeatDaily": "हर दिन",
+      "repeatWeekly": "हर हफ़्ते",
+      "repeatMonthly": "हर महीने",
+      "repeatYearly": "हर साल (वार्षिकोत्सव)",
+      "pin": "शीर्ष पर पिन करें",
+      "reminders": "मुझे याद दिलाएँ",
+      "color": "रंग",
+      "icon": "आइकॉन",
+      "more": "और विकल्प",
+      "eventName": {
+        "label": "घटना का नाम",
+        "placeholder": "आप किसकी गिनती कर रहे हैं?"
+      },
+      "tips": "काउंटडाउन के लिए भविष्य की तारीख चुनें, या काउंट अप के लिए बीते हुए दिन की तारीख चुनें।",
+      "experienceHint": "वह तारीख चुनें जब आपने शुरू किया था — हम उस तारीख से आपका अनुभव गणना करेंगे।",
+      "toast": "घटना जोड़ी गई!",
+      "extend": ""
+    },
+    "edit": {
+      "title": "घटनाएँ प्रबंधित करें",
+      "description": "क्रम बदलने के लिए खींचें। पिन, संपादित या हटाने के लिए आइकॉन टैप करें।",
+      "noData": "अभी कोई घटना नहीं है"
+    },
+    "categories": {
+      "title": "श्रेणियाँ",
+      "new": "नई श्रेणी",
+      "name": "नाम",
+      "namePlaceholder": "जैसे: अनुभव, परीक्षा, यात्रा",
+      "added": "श्रेणी सहेजी गई",
+      "builtIn": "अंतर्निर्मित"
+    },
+    "home": {
+      "title": "Daymark",
+      "countdown": "आगामी",
+      "countup": "बीते हुए",
+      "daysView": "दिन",
+      "weeksView": "सप्ताह",
+      "monthsView": "महीने",
+      "yearsView": "साल",
+      "search": "खोजें",
+      "searchPlaceholder": "घटनाएँ खोजें…",
+      "all": "सभी",
+      "pinned": "पिन किए हुए",
+      "pin": "पिन करें",
+      "unpin": "अनपिन करें",
+      "share": "साझा करें",
+      "delete": "हटाएँ",
+      "emptyHint": "अपनी पहली घटना जोड़ें और गिनती शुरू करें।",
+      "sortBy": "क्रमबद्ध करें",
+      "sortSoonest": "सबसे पहले आने वाला",
+      "sortNewest": "सबसे नया पहले",
+      "sortName": "नाम (अ–ह)"
+    },
+    "settings": {
+      "title": "सेटिंग्स",
+      "general": {
+        "title": "सामान्य",
+        "categories": "श्रेणियाँ",
+        "toggleDevMode": "डेवलपर मोड",
+        "testLocalNotification": "सूचना परीक्षण",
+        "reviewTour": "ऐप टूर फिर से देखें",
+        "about": "Daymark के बारे में",
+        "toggleExtendMode": "",
+        "toggleRelativeMode": "सापेक्ष समय (साल / महीने / दिन)",
+        "backup": "बैकअप और पुनर्स्थापना",
+        "webFrontendReload": "वेब फ्रंटेंड पुनः लोड करें"
+      },
+      "theme": {
+        "title": "दिखावट",
+        "toggleDarkMode": "डार्क मोड",
+        "followSystem": "सिस्टम थीम का पालन करें"
+      },
+      "advanced": {
+        "title": "उन्नत"
+      }
+    },
+    "share": {
+      "title": "साझा करें",
+      "date": "तारीख",
+      "openApp": "Daymark से खोलें"
+    },
+    "backup": {
+      "title": "बैकअप और पुनर्स्थापना",
+      "confirm": {
+        "title": "सभी मौजूदा डेटा ओवरराइट करें?"
+      },
+      "message": {
+        "failed": "विफल",
+        "import": {
+          "successful": "डेटा सफलतापूर्वक आयात किया गया"
+        },
+        "export": {
+          "successful": "डेटा सफलतापूर्वक निर्यात किया गया"
+        }
+      },
+      "export": "निर्यात करें",
+      "import": "आयात करें",
+      "share": {
+        "title": "Daymark बैकअप",
+        "text": "अपनी Daymark बैकअप फ़ाइल साझा करें"
+      }
+    }
+  },
+  "c": {
+    "card": {
+      "days": "दिन",
+      "weeks": "सप्ताह",
+      "months": "महीने",
+      "years": "साल",
+      "countdownEvent": "{{eventName}}",
+      "experience": "का अनुभव",
+      "experienceYears": "साल",
+      "experienceMonths": "महीने",
+      "experienceDays": "दिन"
+    },
+    "cards": {
+      "noData": "यहाँ अभी कुछ नहीं है",
+      "toCountup": "बीते हुए देखें",
+      "toCountdown": "आगामी देखें",
+      "addCountdate": "घटना जोड़ें",
+      "addCountdate!": "अभी कोई घटना नहीं है",
+      "edit": "संपादित करें",
+      "settings": "सेटिंग्स",
+      "checkData": "डेटा जाँचें",
+      "delete!": "घटना हटाएँ?",
+      "deleted": "हटा दिया गया",
+      "deleteMessage": "यह क्रिया वापस नहीं की जा सकती",
+      "deleteAllData": "सभी डेटा हटाएँ",
+      "copyData": "घटना डेटा कॉपी करें",
+      "copied!": "कॉपी हो गया!"
+    },
+    "settings": {
+      "changeTextColor": "संख्या टेक्स्ट रंग",
+      "changeAccent": "एक्सेंट रंग",
+      "followAccent": "एक्सेंट का पालन करें",
+      "saveColor": "रंग सहेजें",
+      "changeLang": "भाषा"
+    },
+    "tour": {
+      "title": "Daymark में आपका स्वागत है",
+      "step_1": "नई घटना जोड़ने के लिए + टैप करें",
+      "step_2": "अपनी घटना को नाम दें",
+      "step_3": "कोई भी तारीख चुनें — बीती हुई या आने वाली, नज़दीक या दूर",
+      "step_4": "श्रेणी, रंग, दोहराना और रिमाइंडर चुनें",
+      "step_5": "त्वरित क्रियाओं के लिए कार्ड टैप करें",
+      "step_6": "महत्वपूर्ण घटनाओं को शीर्ष पर पिन करें",
+      "step_7": "आगामी और बीते हुए के बीच स्विच करें",
+      "step_8": "संपादन स्क्रीन से प्रबंधित करें और क्रम बदलें",
+      "can_review": "आप इस टूर को कभी भी सेटिंग्स से दोबारा देख सकते हैं",
+      "learn_more": "और जानें"
+    },
+    "editor": {
+      "description": "विवरण",
+      "needToSave": "सहेजना ज़रूरी है",
+      "noDescriptionData": "कोई विवरण नहीं",
+      "tips": "",
+      "quickEdit": {
+        "title": "त्वरित संपादन",
+        "confirm": "परिवर्तन की पुष्टि करें?",
+        "addOneMonth": "+1 महीना",
+        "minusOneDay": "-1 दिन",
+        "addOneDay": "+1 दिन"
+      },
+      "edit": "संपादित करें",
+      "completeEdit": "हो गया",
+      "shareDescription": "घटना साझा करें"
+    }
+  }
+}

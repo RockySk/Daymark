@@ -1,0 +1,213 @@
+{
+  "g": {
+    "back": "मागे",
+    "close": "बंद करा",
+    "cancel": "रद्द करा",
+    "confirm": "जतन करा",
+    "discard": "हटवा"
+  },
+  "p": {
+    "about": {
+      "title": "विषयी",
+      "version": "आवृत्ती {{versionName}}",
+      "platform": "प्लॅटफॉर्म:",
+      "reload": "पुन्हा लोड करा",
+      "slogan": "महत्त्वाच्या क्षणांसाठी काउंटडाउन करा — आणि तुम्ही कधीही विसरणार नाही अशा क्षणांपासून काउंट अप करा.",
+      "developer": "डेव्हलपर",
+      "feedbackTitle": "अभिप्राय आणि सहाय्य",
+      "feedback": "अभिप्राय पाठवा",
+      "madeBy": "Sourabh Kulkarni यांनी काळजीपूर्वक बनवले",
+      "link": {
+        "landing": "लँडिंग पेज",
+        "github": "GitHub वरील प्रकल्प",
+        "bug": "बग नोंदवा",
+        "feature": "नवीन वैशिष्ट्याची विनंती करा"
+      },
+      "more": {
+        "title": "अधिक अॅप्स",
+        "weread": "Weread",
+        "onea4paperyourlife": "OneA4PaperYourLife"
+      }
+    },
+    "add": {
+      "title": "नवीन कार्यक्रम",
+      "add": "कार्यक्रम जोडा",
+      "saveChanges": "बदल जतन करा",
+      "updated": "अपडेट झाले!",
+      "nameRequired": "कृपया कार्यक्रमाचे नाव प्रविष्ट करा",
+      "dateLabel": "तारीख",
+      "category": "वर्ग",
+      "customCategory": "सानुकूल वर्ग…",
+      "customCategoryHint": "तुमचे स्वतःचे लेबल टाइप करा (उदा: अनुभव, परीक्षा, सहल) आणि जतन करा.",
+      "repeat": "पुनरावृत्ती",
+      "repeatNone": "पुनरावृत्ती होत नाही",
+      "repeatHourly": "दर तासाला",
+      "repeatDaily": "दररोज",
+      "repeatWeekly": "दर आठवड्याला",
+      "repeatMonthly": "दर महिन्याला",
+      "repeatYearly": "दर वर्षी (वर्धापनदिन)",
+      "pin": "वर पिन करा",
+      "reminders": "मला आठवण करा",
+      "color": "रंग",
+      "icon": "आयकॉन",
+      "more": "अधिक पर्याय",
+      "eventName": {
+        "label": "कार्यक्रमाचे नाव",
+        "placeholder": "तुम्ही कशाची मोजणी करत आहात?"
+      },
+      "tips": "काउंटडाउनसाठी भविष्यातील तारीख निवडा, किंवा काउंट अपसाठी भूतकाळातील तारीख निवडा.",
+      "experienceHint": "तुम्ही सुरू केलेली तारीख निवडा — आम्ही त्या तारखेपासून तुमचा अनुभव मोजू.",
+      "toast": "कार्यक्रम जोडला!",
+      "extend": ""
+    },
+    "edit": {
+      "title": "कार्यक्रम व्यवस्थापित करा",
+      "description": "क्रम बदलण्यासाठी ड्रॅग करा. पिन, संपादन किंवा हटवण्यासाठी आयकॉन टॅप करा.",
+      "noData": "अजून कोणतेही कार्यक्रम नाहीत"
+    },
+    "categories": {
+      "title": "वर्ग",
+      "new": "नवीन वर्ग",
+      "name": "नाव",
+      "namePlaceholder": "उदा: अनुभव, परीक्षा, सहल",
+      "added": "वर्ग जतन झाला",
+      "builtIn": "अंतर्निर्मित"
+    },
+    "home": {
+      "title": "Daymark",
+      "countdown": "आगामी",
+      "countup": "मागील",
+      "daysView": "दिवस",
+      "weeksView": "आठवडे",
+      "monthsView": "महिने",
+      "yearsView": "वर्षे",
+      "search": "शोधा",
+      "searchPlaceholder": "कार्यक्रम शोधा…",
+      "all": "सर्व",
+      "pinned": "पिन केलेले",
+      "pin": "पिन करा",
+      "unpin": "अनपिन करा",
+      "share": "शेअर करा",
+      "delete": "हटवा",
+      "emptyHint": "तुमचा पहिला कार्यक्रम जोडा आणि मोजणी सुरू करा.",
+      "sortBy": "क्रमवारी",
+      "sortSoonest": "लवकरचे प्रथम",
+      "sortNewest": "नवीनतम प्रथम",
+      "sortName": "नाव (अ–ह)"
+    },
+    "settings": {
+      "title": "सेटिंग्ज",
+      "general": {
+        "title": "सामान्य",
+        "categories": "वर्ग",
+        "toggleDevMode": "डेव्हलपर मोड",
+        "testLocalNotification": "सूचना चाचणी",
+        "reviewTour": "अॅप टूर पुन्हा पहा",
+        "about": "Daymark विषयी",
+        "toggleExtendMode": "",
+        "toggleRelativeMode": "सापेक्ष वेळ (वर्षे / महिने / दिवस)",
+        "backup": "बॅकअप आणि पुनर्संचय",
+        "webFrontendReload": "वेब फ्रंटएंड पुन्हा लोड करा"
+      },
+      "theme": {
+        "title": "स्वरूप",
+        "toggleDarkMode": "डार्क मोड",
+        "followSystem": "सिस्टम थीम अनुसरा"
+      },
+      "advanced": {
+        "title": "प्रगत"
+      }
+    },
+    "share": {
+      "title": "शेअर करा",
+      "date": "तारीख",
+      "openApp": "Daymark मध्ये उघडा"
+    },
+    "backup": {
+      "title": "बॅकअप आणि पुनर्संचय",
+      "confirm": {
+        "title": "सर्व विद्यमान डेटा ओव्हरराईट करायचा?"
+      },
+      "message": {
+        "failed": "अयशस्वी",
+        "import": {
+          "successful": "डेटा यशस्वीरीत्या आयात झाला"
+        },
+        "export": {
+          "successful": "डेटा यशस्वीरीत्या निर्यात झाला"
+        }
+      },
+      "export": "निर्यात करा",
+      "import": "आयात करा",
+      "share": {
+        "title": "Daymark बॅकअप",
+        "text": "तुमची Daymark बॅकअप फाईल शेअर करा"
+      }
+    }
+  },
+  "c": {
+    "card": {
+      "days": "दिवस",
+      "weeks": "आठवडे",
+      "months": "महिने",
+      "years": "वर्षे",
+      "countdownEvent": "{{eventName}}",
+      "experience": "चा अनुभव",
+      "experienceYears": "वर्षे",
+      "experienceMonths": "महिने",
+      "experienceDays": "दिवस"
+    },
+    "cards": {
+      "noData": "इथे अजून काहीही नाही",
+      "toCountup": "मागील पहा",
+      "toCountdown": "आगामी पहा",
+      "addCountdate": "कार्यक्रम जोडा",
+      "addCountdate!": "अजून कोणतेही कार्यक्रम नाहीत",
+      "edit": "संपादन करा",
+      "settings": "सेटिंग्ज",
+      "checkData": "डेटा तपासा",
+      "delete!": "कार्यक्रम हटवायचा?",
+      "deleted": "हटवले",
+      "deleteMessage": "ही क्रिया पूर्ववत करता येणार नाही",
+      "deleteAllData": "सर्व डेटा हटवा",
+      "copyData": "कार्यक्रम डेटा कॉपी करा",
+      "copied!": "कॉपी झाले!"
+    },
+    "settings": {
+      "changeTextColor": "संख्या मजकूर रंग",
+      "changeAccent": "अॅक्सेंट रंग",
+      "followAccent": "अॅक्सेंट अनुसरा",
+      "saveColor": "रंग जतन करा",
+      "changeLang": "भाषा"
+    },
+    "tour": {
+      "title": "Daymark मध्ये स्वागत आहे",
+      "step_1": "नवीन कार्यक्रम जोडण्यासाठी + टॅप करा",
+      "step_2": "तुमच्या कार्यक्रमाला नाव द्या",
+      "step_3": "कोणतीही तारीख निवडा — भूतकाळातील किंवा भविष्यातील, जवळची किंवा दूरची",
+      "step_4": "वर्ग, रंग, पुनरावृत्ती आणि स्मरणपत्रे निवडा",
+      "step_5": "जलद कृतीसाठी कार्ड टॅप करा",
+      "step_6": "महत्त्वाचे कार्यक्रम वर पिन करा",
+      "step_7": "आगामी आणि मागील यांच्यात बदला",
+      "step_8": "संपादन स्क्रीनवरून व्यवस्थापित करा आणि क्रम बदला",
+      "can_review": "तुम्ही हा टूर सेटिंग्जमधून कधीही पुन्हा पाहू शकता",
+      "learn_more": "अधिक जाणून घ्या"
+    },
+    "editor": {
+      "description": "वर्णन",
+      "needToSave": "जतन करणे आवश्यक",
+      "noDescriptionData": "वर्णन नाही",
+      "tips": "",
+      "quickEdit": {
+        "title": "जलद संपादन",
+        "confirm": "बदल निश्चित करायचा?",
+        "addOneMonth": "+1 महिना",
+        "minusOneDay": "-1 दिवस",
+        "addOneDay": "+1 दिवस"
+      },
+      "edit": "संपादन करा",
+      "completeEdit": "झाले",
+      "shareDescription": "कार्यक्रम शेअर करा"
+    }
+  }
+}

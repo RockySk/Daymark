@@ -1,0 +1,17 @@
+{
+  "short_name": "Daymark",
+  "name": "Daymark",
+  "orientation": "any",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "assets/icon/icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#6750A4",
+  "background_color": "#6750A4"
+}

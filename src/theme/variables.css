@@ -1,0 +1,308 @@
+/* ============================================================================
+   Daymark — Frosted Depth theme
+   by Sourabh Kulkarni
+   Glassmorphism + gradient accents + bold typography.
+   Light + dark are both first-class.
+   ========================================================================== */
+
+:root {
+  /* M3 shape tokens */
+  --m3-radius-sm: 12px;
+  --m3-radius: 20px;
+  --m3-radius-lg: 24px;
+  --m3-radius-full: 999px;
+
+  /* Glassmorphism tokens */
+  --glass-bg: rgba(255, 255, 255, 0.55);
+  --glass-border: rgba(255, 255, 255, 0.25);
+  --glass-blur: 20px;
+  --glass-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+  --glass-bg-strong: rgba(255, 255, 255, 0.7);
+
+  /* Page gradient */
+  --page-gradient: linear-gradient(160deg, #f8f0ff 0%, #ede6f5 50%, #e4ddef 100%);
+
+  /* Accent gradient */
+  --accent-gradient: linear-gradient(135deg, var(--ion-color-primary), var(--ion-color-primary-tint));
+
+  /* Animation */
+  --card-enter-duration: 0.45s;
+  --card-stagger: 60ms;
+
+  /* Brand seed (Material You purple) */
+  --ion-color-primary: #6750a4;
+  --ion-color-primary-rgb: 103, 80, 164;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #5b4690;
+  --ion-color-primary-tint: #8b78c4;
+
+  --ion-color-secondary: #006a6a;
+  --ion-color-secondary-rgb: 0, 106, 106;
+  --ion-color-secondary-contrast: #ffffff;
+  --ion-color-secondary-contrast-rgb: 255, 255, 255;
+  --ion-color-secondary-shade: #005d5d;
+  --ion-color-secondary-tint: #1a7979;
+
+  --ion-color-tertiary: #7d5260;
+  --ion-color-tertiary-rgb: 125, 82, 96;
+  --ion-color-tertiary-contrast: #ffffff;
+  --ion-color-tertiary-contrast-rgb: 255, 255, 255;
+  --ion-color-tertiary-shade: #6e4854;
+  --ion-color-tertiary-tint: #8a6370;
+
+  --ion-color-success: #386a20;
+  --ion-color-success-rgb: 56, 106, 32;
+  --ion-color-success-contrast: #ffffff;
+  --ion-color-success-contrast-rgb: 255, 255, 255;
+  --ion-color-success-shade: #315d1c;
+  --ion-color-success-tint: #4c7936;
+
+  --ion-color-warning: #7a5900;
+  --ion-color-warning-rgb: 122, 89, 0;
+  --ion-color-warning-contrast: #ffffff;
+  --ion-color-warning-contrast-rgb: 255, 255, 255;
+  --ion-color-warning-shade: #6b4e00;
+  --ion-color-warning-tint: #876a1a;
+
+  --ion-color-danger: #ba1a1a;
+  --ion-color-danger-rgb: 186, 26, 26;
+  --ion-color-danger-contrast: #ffffff;
+  --ion-color-danger-contrast-rgb: 255, 255, 255;
+  --ion-color-danger-shade: #a41717;
+  --ion-color-danger-tint: #c13131;
+
+  --ion-color-medium: #625b71;
+  --ion-color-medium-rgb: 98, 91, 113;
+  --ion-color-medium-contrast: #ffffff;
+  --ion-color-medium-contrast-rgb: 255, 255, 255;
+  --ion-color-medium-shade: #565063;
+  --ion-color-medium-tint: #726b7f;
+
+  --ion-color-dark: #1d1b20;
+  --ion-color-dark-rgb: 29, 27, 32;
+  --ion-color-dark-contrast: #ffffff;
+  --ion-color-dark-contrast-rgb: 255, 255, 255;
+  --ion-color-dark-shade: #19181c;
+  --ion-color-dark-tint: #343237;
+
+  --ion-color-light: #f3edf7;
+  --ion-color-light-rgb: 243, 237, 247;
+  --ion-color-light-contrast: #1d1b20;
+  --ion-color-light-contrast-rgb: 29, 27, 32;
+  --ion-color-light-shade: #d6d1d9;
+  --ion-color-light-tint: #f4eff8;
+
+  /* Light surfaces */
+  --ion-background-color: #f8f0ff;
+  --ion-background-color-rgb: 248, 240, 255;
+  --ion-text-color: #1d1b20;
+  --ion-text-color-rgb: 29, 27, 32;
+  --ion-toolbar-background: transparent;
+  --ion-item-background: var(--glass-bg);
+  --ion-card-background: var(--glass-bg);
+  --ion-tab-bar-background: var(--glass-bg-strong);
+  --ion-border-color: var(--glass-border);
+
+  --m3-surface-variant: rgba(231, 224, 236, 0.6);
+  --m3-on-surface-variant: #49454f;
+  --m3-outline: #79747e;
+}
+
+/* ---- Dark theme --------------------------------------------------------- */
+body.dark {
+  --glass-bg: rgba(255, 255, 255, 0.06);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+  --glass-bg-strong: rgba(255, 255, 255, 0.1);
+  --page-gradient: linear-gradient(160deg, #1a1625 0%, #12101a 50%, #0f0d14 100%);
+
+  --ion-color-primary: #d0bcff;
+  --ion-color-primary-rgb: 208, 188, 255;
+  --ion-color-primary-contrast: #381e72;
+  --ion-color-primary-contrast-rgb: 56, 30, 114;
+  --ion-color-primary-shade: #b7a5e0;
+  --ion-color-primary-tint: #dccfff;
+
+  --ion-color-secondary: #4fd8d8;
+  --ion-color-secondary-rgb: 79, 216, 216;
+  --ion-color-secondary-contrast: #003737;
+  --ion-color-secondary-contrast-rgb: 0, 55, 55;
+  --ion-color-secondary-shade: #46bebe;
+  --ion-color-secondary-tint: #61dcdc;
+
+  --ion-color-tertiary: #efb8c8;
+  --ion-color-tertiary-rgb: 239, 184, 200;
+  --ion-color-tertiary-contrast: #492532;
+  --ion-color-tertiary-contrast-rgb: 73, 37, 50;
+  --ion-color-tertiary-shade: #d2a2b0;
+  --ion-color-tertiary-tint: #f1bfce;
+
+  --ion-color-success: #9ed47e;
+  --ion-color-success-rgb: 158, 212, 126;
+  --ion-color-success-contrast: #0d3900;
+  --ion-color-success-contrast-rgb: 13, 57, 0;
+  --ion-color-success-shade: #8bbb6f;
+  --ion-color-success-tint: #a8d88b;
+
+  --ion-color-warning: #ecc248;
+  --ion-color-warning-rgb: 236, 194, 72;
+  --ion-color-warning-contrast: #3f2e00;
+  --ion-color-warning-contrast-rgb: 63, 46, 0;
+  --ion-color-warning-shade: #cfab3f;
+  --ion-color-warning-tint: #eec85a;
+
+  --ion-color-danger: #ffb4ab;
+  --ion-color-danger-rgb: 255, 180, 171;
+  --ion-color-danger-contrast: #690005;
+  --ion-color-danger-contrast-rgb: 105, 0, 5;
+  --ion-color-danger-shade: #e09e96;
+  --ion-color-danger-tint: #ffbcb3;
+
+  --ion-color-medium: #cac4d0;
+  --ion-color-medium-rgb: 202, 196, 208;
+  --ion-color-medium-contrast: #1d1b20;
+  --ion-color-medium-contrast-rgb: 29, 27, 32;
+  --ion-color-medium-shade: #b2acb7;
+  --ion-color-medium-tint: #cfc9d5;
+
+  --ion-color-dark: #e6e1e5;
+  --ion-color-dark-rgb: 230, 225, 229;
+  --ion-color-dark-contrast: #1d1b20;
+  --ion-color-dark-contrast-rgb: 29, 27, 32;
+  --ion-color-dark-shade: #cac6c9;
+  --ion-color-dark-tint: #e9e4e8;
+
+  --ion-color-light: #2b2930;
+  --ion-color-light-rgb: 43, 41, 48;
+  --ion-color-light-contrast: #e6e1e5;
+  --ion-color-light-contrast-rgb: 230, 225, 229;
+  --ion-color-light-shade: #262329;
+  --ion-color-light-tint: #403e45;
+
+  --ion-background-color: #141218;
+  --ion-background-color-rgb: 20, 18, 24;
+  --ion-text-color: #e6e1e5;
+  --ion-text-color-rgb: 230, 225, 229;
+  --ion-toolbar-background: transparent;
+  --ion-item-background: var(--glass-bg);
+  --ion-card-background: var(--glass-bg);
+  --ion-tab-bar-background: var(--glass-bg-strong);
+  --ion-border-color: var(--glass-border);
+
+  --m3-surface-variant: rgba(73, 69, 79, 0.5);
+  --m3-on-surface-variant: #cac4d0;
+  --m3-outline: #938f99;
+}
+
+/* ============================================================================
+   Global Frosted Depth component styles
+   ========================================================================== */
+
+/* Page gradient background */
+ion-content {
+  --background: var(--page-gradient);
+}
+
+ion-toolbar {
+  --border-width: 0 !important;
+  --border-color: transparent;
+  --background: transparent;
+}
+
+ion-title {
+  font-weight: 800;
+  letter-spacing: -0.2px;
+  font-size: 1.35rem;
+}
+
+/* Glass cards */
+ion-card {
+  border-radius: var(--m3-radius-lg);
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+  margin: 8px 0;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+ion-card:active {
+  transform: scale(0.985);
+}
+
+/* Pill buttons */
+ion-button {
+  --border-radius: var(--m3-radius-full);
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  text-transform: none;
+}
+
+/* Gradient FAB */
+ion-fab-button {
+  --border-radius: var(--m3-radius);
+  --background: var(--ion-color-primary);
+  --box-shadow: 0 6px 20px rgba(103, 80, 164, 0.35);
+}
+body.dark ion-fab-button {
+  --box-shadow: 0 6px 20px rgba(208, 188, 255, 0.25);
+}
+
+/* Glass inputs */
+ion-item {
+  --border-radius: var(--m3-radius-sm);
+  --background: var(--glass-bg);
+}
+
+/* Glass segment */
+ion-segment {
+  --background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--m3-radius-full);
+  padding: 3px;
+}
+ion-segment-button {
+  --border-radius: var(--m3-radius-full);
+  --indicator-color: var(--ion-color-primary);
+  min-height: 40px;
+  text-transform: none;
+  font-weight: 700;
+}
+
+/* Glass chips */
+ion-chip {
+  border-radius: var(--m3-radius-sm);
+  font-weight: 600;
+}
+
+/* Glass searchbar */
+ion-searchbar {
+  --border-radius: var(--m3-radius-full) !important;
+  --box-shadow: none;
+  --background: var(--glass-bg);
+  padding-top: 4px;
+  padding-bottom: 8px;
+}
+
+/* Glass lists */
+ion-list {
+  background: transparent;
+}
+ion-list-header {
+  --background: transparent;
+}
+
+/* Entry animation */
+@keyframes cardSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

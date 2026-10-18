@@ -1,0 +1,19 @@
+ion-item {
+  cursor: pointer;
+}
+a {
+  text-decoration: none !important;
+}
+.ion-text-wrap {
+  text-wrap: wrap;
+}
+
+/* Glass list containers */
+ion-list[inset] {
+  background: var(--glass-bg) !important;
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border: 1px solid var(--glass-border);
+  border-radius: var(--m3-radius) !important;
+  box-shadow: var(--glass-shadow);
+}

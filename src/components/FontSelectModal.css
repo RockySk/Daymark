@@ -1,0 +1,61 @@
+.font-section-title {
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--m3-on-surface-variant);
+  margin: 18px 4px 8px;
+}
+
+.font-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.font-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 14px 16px;
+  border: 2px solid var(--glass-border);
+  border-radius: var(--m3-radius);
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: left;
+}
+
+.font-card--active {
+  border-color: var(--ion-color-primary);
+  box-shadow: 0 4px 16px color-mix(in srgb, var(--ion-color-primary) 25%, transparent);
+}
+
+.font-card__check {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 1.3rem;
+  color: var(--ion-color-primary);
+}
+
+.font-card__preview {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--ion-text-color);
+  line-height: 1.4;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.font-card__name {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--m3-on-surface-variant);
+}

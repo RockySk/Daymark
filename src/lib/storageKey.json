@@ -1,0 +1,12 @@
+{
+  "data": "countdate_events_data",
+  "theme": "countdate_prefer_theme",
+  "dev": "countdate_dev_mode",
+  "accent": "countdate_accent_color",
+  "textColor": "countdate_text_color",
+  "firstTime": "countdate_first",
+  "extend": "countdate_extend_mode",
+  "relative": "countdate_relative_mode",
+  "appTheme": "countdate_app_theme",
+  "appFont": "countdate_app_font"
+}

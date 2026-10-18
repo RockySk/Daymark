@@ -1,0 +1,220 @@
+{
+  "g": {
+    "back": "Back",
+    "close": "Close",
+    "cancel": "Cancel",
+    "confirm": "Save",
+    "discard": "Delete"
+  },
+  "p": {
+    "about": {
+      "title": "About",
+      "version": "Version {{versionName}}",
+      "platform": "Platform:",
+      "reload": "Reload",
+      "slogan": "Count down to the moments that matter — and count up from the ones you'll never forget.",
+      "developer": "Developer",
+      "feedbackTitle": "Feedback & support",
+      "feedback": "Send feedback",
+      "madeBy": "Made with care by Sourabh Kulkarni",
+      "link": {
+        "landing": "Landing page",
+        "github": "Project on GitHub",
+        "bug": "Report a bug",
+        "feature": "Request a feature"
+      },
+      "more": {
+        "title": "More apps",
+        "weread": "Weread",
+        "onea4paperyourlife": "OneA4PaperYourLife"
+      }
+    },
+    "add": {
+      "title": "New event",
+      "add": "Add event",
+      "saveChanges": "Save changes",
+      "updated": "Updated!",
+      "nameRequired": "Please enter an event name",
+      "dateLabel": "Date",
+      "startDateLabel": "Start date",
+      "endDateLabel": "End date",
+      "includeEndDate": "Include end date",
+      "includeEndDateHint": "Add an end date for multi-day events, trips, or experiences",
+      "includeEndDay": "Include end day in count (+1 day)",
+      "includeEndDayHint": "Counts both the start date and end date (inclusive calculation)",
+      "category": "Category",
+      "customCategory": "Custom category…",
+      "customCategoryHint": "Type your own label (e.g. Experience, Exam, Trip) and save it.",
+      "repeat": "Repeat",
+      "repeatNone": "Does not repeat",
+      "repeatHourly": "Every hour",
+      "repeatDaily": "Every day",
+      "repeatWeekly": "Every week",
+      "repeatMonthly": "Every month",
+      "repeatYearly": "Every year (anniversary)",
+      "pin": "Pin to top",
+      "reminders": "Remind me",
+      "color": "Color",
+      "icon": "Icon",
+      "more": "More options",
+      "eventName": {
+        "label": "Event name",
+        "placeholder": "What are you counting to?"
+      },
+      "tips": "Pick a date in the future for a countdown, or in the past for a count-up.",
+      "experienceHint": "Pick the date you started — we'll calculate your experience from that date.",
+      "toast": "Event added!",
+      "extend": ""
+    },
+    "edit": {
+      "title": "Manage events",
+      "description": "Drag to reorder. Tap the icons to pin, edit or delete.",
+      "noData": "No events yet"
+    },
+    "categories": {
+      "title": "Categories",
+      "new": "New category",
+      "name": "Name",
+      "namePlaceholder": "e.g. Experience, Exam, Trip",
+      "added": "Category saved",
+      "builtIn": "Built-in"
+    },
+    "home": {
+      "title": "Daymark",
+      "countdown": "Upcoming",
+      "countup": "Past",
+      "daysView": "Days",
+      "weeksView": "Weeks",
+      "monthsView": "Months",
+      "yearsView": "Years",
+      "search": "Search",
+      "searchPlaceholder": "Search events…",
+      "all": "All",
+      "pinned": "Pinned",
+      "pin": "Pin",
+      "unpin": "Unpin",
+      "share": "Share",
+      "delete": "Delete",
+      "emptyHint": "Add your first event and start counting.",
+      "sortBy": "Sort by",
+      "sortSoonest": "Soonest first",
+      "sortNewest": "Newest first",
+      "sortName": "Name (A–Z)"
+    },
+    "settings": {
+      "title": "Settings",
+      "general": {
+        "title": "General",
+        "categories": "Categories",
+        "toggleDevMode": "Developer mode",
+        "testLocalNotification": "Test notification",
+        "reviewTour": "Replay app tour",
+        "about": "About Daymark",
+        "toggleExtendMode": "",
+        "toggleRelativeMode": "Relative time (years / months / days)",
+        "backup": "Backup & restore",
+        "webFrontendReload": "Reload web frontend"
+      },
+      "theme": {
+        "title": "Appearance",
+        "toggleDarkMode": "Dark mode",
+        "followSystem": "Follow system theme"
+      },
+      "advanced": {
+        "title": "Advanced"
+      }
+    },
+    "share": {
+      "title": "Share",
+      "date": "Date",
+      "openApp": "Open with Daymark"
+    },
+    "backup": {
+      "title": "Backup & restore",
+      "confirm": {
+        "title": "Overwrite all existing data?"
+      },
+      "message": {
+        "failed": "Failed",
+        "import": {
+          "successful": "Data imported successfully"
+        },
+        "export": {
+          "successful": "Data exported successfully"
+        }
+      },
+      "export": "Export",
+      "import": "Import",
+      "share": {
+        "title": "Daymark Backup",
+        "text": "Share your Daymark backup file"
+      }
+    }
+  },
+  "c": {
+    "card": {
+      "day": "day",
+      "days": "days",
+      "weeks": "weeks",
+      "months": "months",
+      "years": "years",
+      "countdownEvent": "{{eventName}}",
+      "experience": "of experience",
+      "experienceYears": "years",
+      "experienceMonths": "months",
+      "experienceDays": "days"
+    },
+    "cards": {
+      "noData": "Nothing here yet",
+      "toCountup": "View past",
+      "toCountdown": "View upcoming",
+      "addCountdate": "Add event",
+      "addCountdate!": "No events yet",
+      "edit": "Edit",
+      "settings": "Settings",
+      "checkData": "Check data",
+      "delete!": "Delete event?",
+      "deleted": "Deleted",
+      "deleteMessage": "This action cannot be undone",
+      "deleteAllData": "Delete all data",
+      "copyData": "Copy event data",
+      "copied!": "Copied!"
+    },
+    "settings": {
+      "changeTextColor": "Number text color",
+      "changeAccent": "Accent color",
+      "followAccent": "Follow accent",
+      "saveColor": "Save color",
+      "changeLang": "Language"
+    },
+    "tour": {
+      "title": "Welcome to Daymark",
+      "step_1": "Tap + to add a new event",
+      "step_2": "Give your event a name",
+      "step_3": "Pick any date — past or future, near or far",
+      "step_4": "Choose a category, color, repeat and reminders",
+      "step_5": "Tap a card for quick actions",
+      "step_6": "Pin important events to the top",
+      "step_7": "Switch between Upcoming and Past",
+      "step_8": "Manage and reorder from the edit screen",
+      "can_review": "You can replay this tour anytime from Settings",
+      "learn_more": "Learn more"
+    },
+    "editor": {
+      "description": "Description",
+      "needToSave": "Need to save",
+      "noDescriptionData": "No description",
+      "tips": "",
+      "quickEdit": {
+        "title": "Quick edit",
+        "confirm": "Confirm change?",
+        "addOneMonth": "+1 month",
+        "minusOneDay": "-1 day",
+        "addOneDay": "+1 day"
+      },
+      "edit": "Edit",
+      "completeEdit": "Done",
+      "shareDescription": "Share event"
+    }
+  }
+}
