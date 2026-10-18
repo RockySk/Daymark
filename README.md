@@ -151,7 +151,7 @@ Found an issue or have a feature idea?
 
 **Sourabh Kulkarni**  
 - Email: developer.sourabhk@gmail.com  
-- GitHub: [@SourabhKulkarni19](https://github.com/SourabhKulkarni19)
+- GitHub: [@RockySk](https://github.com/RockySk)
 
 ---
 
