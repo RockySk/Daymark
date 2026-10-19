@@ -9,7 +9,7 @@
     android:resizeMode="vertical|horizontal"
     android:updatePeriodMillis="3600000"
     android:widgetCategory="home_screen"
-    android:configure="com.sourabhkulkarni.countdate.CountdateWidgetConfig"
+    android:configure="com.sourabhkulkarni.daymark.CountdateWidgetConfig"
     android:widgetFeatures="reconfigurable"
     android:description="@string/widget_minimal_desc">
 </appwidget-provider>

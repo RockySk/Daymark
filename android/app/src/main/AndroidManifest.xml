@@ -87,8 +87,8 @@
                 <action android:name="android.intent.action.DATE_CHANGED" />
                 <action android:name="android.intent.action.TIME_SET" />
                 <action android:name="android.intent.action.TIMEZONE_CHANGED" />
-                <action android:name="com.sourabhkulkarni.countdate.ACTION_DAILY_UPDATE" />
-                <action android:name="com.sourabhkulkarni.countdate.ACTION_UPDATE_WIDGETS" />
+                <action android:name="com.sourabhkulkarni.daymark.ACTION_DAILY_UPDATE" />
+                <action android:name="com.sourabhkulkarni.daymark.ACTION_UPDATE_WIDGETS" />
             </intent-filter>
         </receiver>
     </application>

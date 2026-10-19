@@ -1,20 +1,20 @@
-package com.sourabhkulkarni.countdate;
+package com.sourabhkulkarni.daymark;
 
-import static com.sourabhkulkarni.countdate.CountdateWidgetConfig.KEY_COLOR_PREFIX;
-import static com.sourabhkulkarni.countdate.CountdateWidgetConfig.KEY_DATA;
-import static com.sourabhkulkarni.countdate.CountdateWidgetConfig.KEY_DATE_PREFIX;
-import static com.sourabhkulkarni.countdate.CountdateWidgetConfig.KEY_ID_PREFIX;
-import static com.sourabhkulkarni.countdate.CountdateWidgetConfig.KEY_NAME_PREFIX;
-import static com.sourabhkulkarni.countdate.CountdateWidgetConfig.KEY_OPACITY_PREFIX;
-import static com.sourabhkulkarni.countdate.CountdateWidgetConfig.KEY_UNIT_PREFIX;
-import static com.sourabhkulkarni.countdate.CountdateWidgetConfig.KEY_WALLPAPER_PREFIX;
-import static com.sourabhkulkarni.countdate.CountdateWidgetConfig.SHARED_PREFS;
-import static com.sourabhkulkarni.countdate.CountdateWidgetConfig.UNIT_DAYS;
-import static com.sourabhkulkarni.countdate.CountdateWidgetConfig.UNIT_MONTHS;
-import static com.sourabhkulkarni.countdate.CountdateWidgetConfig.UNIT_TIME;
-import static com.sourabhkulkarni.countdate.CountdateWidgetConfig.UNIT_WEEKS;
-import static com.sourabhkulkarni.countdate.CountdateWidgetConfig.UNIT_YEARS;
-import static com.sourabhkulkarni.countdate.CountdateWidgetConfig.UNIT_YMD;
+import static com.sourabhkulkarni.daymark.CountdateWidgetConfig.KEY_COLOR_PREFIX;
+import static com.sourabhkulkarni.daymark.CountdateWidgetConfig.KEY_DATA;
+import static com.sourabhkulkarni.daymark.CountdateWidgetConfig.KEY_DATE_PREFIX;
+import static com.sourabhkulkarni.daymark.CountdateWidgetConfig.KEY_ID_PREFIX;
+import static com.sourabhkulkarni.daymark.CountdateWidgetConfig.KEY_NAME_PREFIX;
+import static com.sourabhkulkarni.daymark.CountdateWidgetConfig.KEY_OPACITY_PREFIX;
+import static com.sourabhkulkarni.daymark.CountdateWidgetConfig.KEY_UNIT_PREFIX;
+import static com.sourabhkulkarni.daymark.CountdateWidgetConfig.KEY_WALLPAPER_PREFIX;
+import static com.sourabhkulkarni.daymark.CountdateWidgetConfig.SHARED_PREFS;
+import static com.sourabhkulkarni.daymark.CountdateWidgetConfig.UNIT_DAYS;
+import static com.sourabhkulkarni.daymark.CountdateWidgetConfig.UNIT_MONTHS;
+import static com.sourabhkulkarni.daymark.CountdateWidgetConfig.UNIT_TIME;
+import static com.sourabhkulkarni.daymark.CountdateWidgetConfig.UNIT_WEEKS;
+import static com.sourabhkulkarni.daymark.CountdateWidgetConfig.UNIT_YEARS;
+import static com.sourabhkulkarni.daymark.CountdateWidgetConfig.UNIT_YMD;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -45,8 +45,8 @@ import java.util.Locale;
 
 public class WidgetHelper {
 
-    public static final String ACTION_DAILY_UPDATE   = "com.sourabhkulkarni.countdate.ACTION_DAILY_UPDATE";
-    public static final String ACTION_UPDATE_WIDGETS = "com.sourabhkulkarni.countdate.ACTION_UPDATE_WIDGETS";
+    public static final String ACTION_DAILY_UPDATE   = "com.sourabhkulkarni.daymark.ACTION_DAILY_UPDATE";
+    public static final String ACTION_UPDATE_WIDGETS = "com.sourabhkulkarni.daymark.ACTION_UPDATE_WIDGETS";
 
     public static void updateAllWidgets(Context context) {
         if (context == null) return;

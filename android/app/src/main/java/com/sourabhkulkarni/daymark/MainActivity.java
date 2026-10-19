@@ -1,4 +1,4 @@
-package com.sourabhkulkarni.countdate;
+package com.sourabhkulkarni.daymark;
 
 import android.os.Bundle;
 import android.webkit.WebView;

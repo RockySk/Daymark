@@ -1,8 +1,10 @@
-<i>Countdate</i> lets you know how many days are left to a specific date. Next to the native app, there's also a web version available.
+<b>Daymark</b> is an intuitive, privacy-friendly event tracker designed to help you celebrate upcoming milestones and cherish meaningful memories from the past with no accounts, ads, or tracking.
 
-<i>Countdate</i> is and will be free to download and use. As it's open source and under a free license, you can even take the code and modify it!
-
-* <b>Android、iOS:</b> Ready to use native app.
-* <b>Web:</b> Web version of countdate app is also available.
-* <b>Free to Use:</b> As always, this app is free to download and use!
-* <b>Open Source:</b> Since this app is MIT licensed, you can modify it!
+<b>Features:</b>
+* <b>Flexible Countdown & Count-Up:</b> Count down to future moments or count up from past milestones with uncapped date range and exact time precision.
+* <b>Material You Design:</b> Modern fluid animations, rounded cards, full dark and light mode, and customizable per-event accent colors and icons.
+* <b>Recurrence & Smart Anniversaries:</b> Hourly, Daily, Weekly, Monthly, and Yearly repeats with smart rollover.
+* <b>Local Reminders & Notifications:</b> Scheduled directly on your device with customizable alert timings.
+* <b>Organization:</b> Category filtering, search, pin to top, custom categories, and gesture navigation.
+* <b>Home-Screen Widgets:</b> Interactive widgets with auto-refresh and customizable appearance.
+* <b>Complete Privacy:</b> Fully offline, no internet required, zero tracking or analytics, with full JSON backup & restore.

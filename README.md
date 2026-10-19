@@ -6,7 +6,7 @@
 
 A beautiful, modern **Material You (M3)** countdown & count-up application for Android.
 
-`com.sourabhkulkarni.countdate` · v1.0.1 · by **Sourabh Kulkarni**
+`com.sourabhkulkarni.daymark` · v1.0.1 · by **Sourabh Kulkarni**
 
 </div>
 

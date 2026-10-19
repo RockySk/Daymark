@@ -1,7 +1,7 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.sourabhkulkarni.countdate',
+  appId: 'com.sourabhkulkarni.daymark',
   appName: 'Daymark',
   webDir: 'dist',
   server: {

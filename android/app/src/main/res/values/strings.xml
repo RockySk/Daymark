@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">Daymark</string>
     <string name="title_activity_main">Daymark</string>
-    <string name="package_name">com.sourabhkulkarni.countdate</string>
+    <string name="package_name">com.sourabhkulkarni.daymark</string>
     <string name="custom_url_scheme">countdateapp</string>
     <string name="countdown_widget_text">0</string>
     <string name="widget_minimal_desc">Minimal light widget</string>

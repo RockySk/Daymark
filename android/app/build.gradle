@@ -8,10 +8,10 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace = "com.sourabhkulkarni.countdate"
+    namespace = "com.sourabhkulkarni.daymark"
     compileSdk = rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "com.sourabhkulkarni.countdate"
+        applicationId "com.sourabhkulkarni.daymark"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 2

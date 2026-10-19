@@ -1,4 +1,4 @@
-package com.sourabhkulkarni.countdate;
+package com.sourabhkulkarni.daymark;
 
 import com.getcapacitor.Plugin;
 import com.getcapacitor.PluginCall;

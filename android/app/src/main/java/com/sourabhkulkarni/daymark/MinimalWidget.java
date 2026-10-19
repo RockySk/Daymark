@@ -1,22 +1,22 @@
-package com.sourabhkulkarni.countdate;
+package com.sourabhkulkarni.daymark;
 
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
 import android.content.Context;
 import android.os.Bundle;
 
-public class CountdateWidget extends AppWidgetProvider {
+public class MinimalWidget extends AppWidgetProvider {
     @Override
-    public void onUpdate(Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds) {
-        for (int appWidgetId : appWidgetIds) {
-            WidgetHelper.updateWidget(context, appWidgetManager, appWidgetId, CountdateWidget.class);
+    public void onUpdate(Context context, AppWidgetManager mgr, int[] ids) {
+        for (int id : ids) {
+            WidgetHelper.updateWidget(context, mgr, id, MinimalWidget.class);
         }
         WidgetHelper.scheduleMidnightUpdate(context);
     }
 
     @Override
     public void onAppWidgetOptionsChanged(Context context, AppWidgetManager appWidgetManager, int appWidgetId, Bundle newOptions) {
-        WidgetHelper.updateWidget(context, appWidgetManager, appWidgetId, CountdateWidget.class);
+        WidgetHelper.updateWidget(context, appWidgetManager, appWidgetId, MinimalWidget.class);
     }
 
     @Override

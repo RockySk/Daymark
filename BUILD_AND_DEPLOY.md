@@ -3,7 +3,7 @@
 End-to-end instructions: from a clean checkout, to a debug build on your phone, to a
 signed release uploaded to the Play Store. Also covers how to **bump the version**.
 
-App id: `com.sourabhkulkarni.countdate` · Author: Sourabh Kulkarni
+App id: `com.sourabhkulkarni.daymark` · Author: Sourabh Kulkarni
 
 ---
 
@@ -208,7 +208,7 @@ adb install -r android/app/build/outputs/apk/release/app-release.apk
 
 ### Option B — Google Play Store
 1. Go to the [Play Console](https://play.google.com/console) → create the app
-   (package `com.sourabhkulkarni.countdate`).
+   (package `com.sourabhkulkarni.daymark`).
 2. Fill the store listing (title **Daymark**, description, screenshots, icon, feature graphic).
 3. **Release → Testing → Internal testing** → *Create new release*.
 4. Upload `app-release.aab`.

@@ -1,4 +1,4 @@
-package com.sourabhkulkarni.countdate;
+package com.sourabhkulkarni.daymark;
 
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
